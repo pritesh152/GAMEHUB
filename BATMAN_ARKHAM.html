@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/path/to/bootstrap.min.css">
+    <script src="scripts/jquery-2.2.3.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/jquery.mycart.min.js"></script>
+    <script src="scripts/index.js"></script>
+    <style>
+        .badge-notify {
+            background: red;
+            position: relative;
+            top: -20px;
+            right: 10px;
+        }
+        .my-cart-icon-affix {
+            position: fixed;
+            z-index: 999;
+        }
+        li {
+            float: left;
+        }
+    .navbar-brand{
+    height:40px;
+    position:center;
+    align-content:flex-end;
+    color:cadetblue;
+    padding-top:24px;
+    }
+    .navbar-header{
+    position:relative;
+    }
+     body{
+         color:whitesmoke;
+     }
+    </style>
+</head>
+<body data-target=".navbar" data-offset="50" style="background-color:black;">
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><b style="color:gold;">GameHub</b></a>
+                    <form class="navbar-form navbar-left">
+                        <div class="input-group" style="padding-right:5px">
+                            <input type="text" id="myInput" onkeyup="myFunction()" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                    <div style="float: right; cursor: pointer; padding-top:2px;">
+                    </div>
+                </div>  
+                    <ul class="nav navbar-nav">
+                        <li><a href="page1.html">Store</a></li>
+                        <li><a href="AboutUs.html">About Us</a></li>
+                        <li><a  href="MinReq.html">Min Req</a></li>
+                        	<li style="float:center-right;"><a href="viewcart.php"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+						<li style="float:right;"><a href="login.php"><span class="glyphicon glyphicon-log-out"></span>Login/Register</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+    <br /><br /> <br />
+    <div>
+        <br><br><br /><br />
+        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/bat/batman6.jpg" alt="pic1" style="width:100%; height:350px;">
+                </div>
+                <div class="item">
+                    <img src="images/bat/batman7.jpg" alt="pic3" style="width:100%; height:350px;">
+                </div>
+                <div class="item">
+                    <img src="images/bat/batman8.jpg" alt="pic5" style="width:100%; height:350px;">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>          
+        <hr>
+    <style>
+        .hidden-div {
+            display: none
+        }
+    </style>
+                    <div class="container">
+                        <h3>BATMAN : ARKHAM KNIGHT</h3>              
+                           
+                              <p> The game shows the conquest of Batman against the corrupt and downright lunatic underworld of city of Gotham . This game uses Unreal Engine for lifelike grapgics and fluid gameplay.</p>
+                        <center>
+                            
+                            <button onclick="this.style.visibility= 'hidden';"class="btn btn-primary">DETAILS</button>
+ 
+                        </center>
+                        <h5>
+								One year after the death of the Joker during the events of Arkham City, Batman is struggling to come to terms with the absence of his nemesis and the uncomfortable feeling that the pair shared a bond deeper than either could admit. Without the Joker's chaotic presence, Gotham's citizens have never felt safer, and crime in the city has dramatically declined. However, this gives Batman's enemies, including Penguin, Two-Face, and Harley Quinn, a chance to unite with the singular goal of killing Batman.
+
+On Halloween night, Scarecrow threatens the city with his newly created strain of fear toxin and bombs planted throughout Gotham, forcing the evacuation of the city's six million civilians. Only criminals remain in the city, leaving Commissioner Gordon and the Gotham City Police Department outnumbered. Anticipating a new threat, Batman continues to develop crime-fighting technology and maintains a vigil over the city.
+
+Arkham Knight's Gotham City is approximately five times the scale of the open-air Arkham City prison in Arkham City. The game takes place in the center of the city, which is split into three islands: Bleake, Founders, and Miagani, with various districts such as the neon-tinged Chinatown, and the industrial shipping yard. Bleake Island features shorter buildings, disheveled areas, and abandoned docks, while Founders Island is a modern development of skyscrapers built on the ruins of Gotham slums, and Miagani Island is an older metropolis with Wayne Tower at its center. Oracle has set up her communications headquarters in the Gotham clock tower, which also houses a makeshift Batcave
+						  
+						
+						</h5>
+                        
+                        <script>
+
+                            $(document).ready(function () {
+                                $("h5").hide();
+                                $("button").click(function () {
+                                    $("h5").toggle()
+                                });
+                            }
+                            );
+                        </script>
+                        <br />
+                        <br />                    
+                        <div class="btn-group btn-group-justified">
+                            <a href="login.php" class="btn btn-primary">PC($9.5)</a>
+                        </div>
+                    </div>
+</body>
+</html>
